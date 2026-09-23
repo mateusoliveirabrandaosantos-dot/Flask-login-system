@@ -1,0 +1,112 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #dadbce;
+}
+
+h1{
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    font-size: 3rem;
+    color: white;
+    background-color: #4CAF50;
+    padding: 1rem;
+    position: absolute;
+    border: solid 2px white;
+    left: 42%;
+    margin-top: 2%;
+}
+
+.login{
+    width: 350px;
+    height: 400px;
+    position: absolute;
+    left: 35%;
+    margin-top: 10%;
+    padding: 20px;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+input{
+    padding: 0.5rem;
+    border-radius: 5rem;
+    border: solid 2px #ccc;
+    background-color: #f2f2f2;
+    position: absolute;
+}
+
+label{
+    font-family: 'Arial', sans-serif;
+    font-size: 1rem;
+    color: #a8a8a8;
+    margin-bottom: 0.5rem;
+    position: absolute;
+}
+
+.email{
+    position: absolute;
+    left: 20%;
+    top: 20%
+}
+.password{
+    position: absolute;
+    left: 20%;
+    top: 40%;
+}
+
+.l1{
+    position: absolute;
+    left: 23%;
+    top: 22%;
+    background-color: #f2f2f2;
+    z-index: 1;
+    transition: 0.3s;
+}
+
+.l2{
+    position: absolute;
+    left: 23%;
+    top: 42%;
+    background-color: #f2f2f2;
+    z-index: 1;
+    transition: 0.3s;
+}
+
+.email:focus + .l1,
+.email:valid + .l1{ 
+        left: 23%;
+        top: 18%;
+        z-index: 1;
+        background-color: #f2f2f2;
+}
+.password:focus + .l2,
+.password:valid + .l2{ 
+    left: 23%;
+    top: 38%;
+    z-index: 1;
+    background-color: #f2f2f2;
+}
+
+button{
+    position: absolute;
+    left: 30%;
+    top: 70%;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 2rem;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover{
+    font-size: 2.5rem;
+}
