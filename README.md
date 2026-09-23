@@ -1,4 +1,4 @@
-#Flask Login System
+# Flask Login System
 
 ## Sistema de login simples de fácil uso tanto para os devs quanto pros usuários, usando o Flask, Python, e HTML5+CSS3.
 
